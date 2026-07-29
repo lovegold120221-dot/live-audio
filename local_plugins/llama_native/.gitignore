@@ -1,0 +1,10 @@
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+build/
+.android/
+android/build/
+android/.gradle/
+android/src/main/cpp/llama_cpp/

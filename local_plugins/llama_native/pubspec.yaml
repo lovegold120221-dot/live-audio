@@ -1,0 +1,19 @@
+name: llama_native
+description: "Flutter plugin for on-device LLM inference via llama.cpp on Android."
+version: 0.0.1
+
+environment:
+  sdk: ^3.10.3
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.privateagent.llama_native
+        pluginClass: LlamaNativePlugin
